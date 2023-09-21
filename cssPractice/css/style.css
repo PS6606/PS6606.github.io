@@ -1,0 +1,37 @@
+/*Patrick Stewart 09/21/23*/
+header
+{
+    background-color: paleturquoise;
+}
+footer
+{
+    background-color: paleturquoise;
+}
+p
+{
+    font-size: 20px;
+}
+ul
+{
+    font-size: 20px;
+}
+li
+{
+    font-size: 20px;
+}
+a:link
+{
+   color: blue; 
+}
+a:visited
+{
+    color: purple;
+}
+a:hover
+{
+    color: green;
+}
+a:active
+{
+    color: rgb(0, 0, 0);
+}
