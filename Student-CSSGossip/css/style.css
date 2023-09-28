@@ -85,3 +85,23 @@ hr
 {
     margin-bottom: 25px;
 }
+
+a:link
+{
+  color: aquamarine
+}
+
+a:visited
+{
+  color:palevioletred
+}
+
+a:hover
+{
+  color: thistle
+}
+
+a:active
+{
+  color:honeydew
+}
