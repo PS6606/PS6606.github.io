@@ -1,0 +1,69 @@
+/*Patrick Stewart 10/03/23*/
+
+
+#outerwrapper 
+{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+.floatleft 
+{ 
+	float: left;
+	margin-right: 3%;
+}
+
+.floatright 
+{
+	float: right;
+	margin-right: 3%;
+}
+
+main 
+{ 
+	clear: both;
+	background-color: #C5A98B;
+	padding: 10px;
+}
+
+body
+{
+	background-color: #B8D1EB;
+	color: #000000;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+footer
+{
+	clear: both;
+	font-size: .75em;
+	text-align: center;
+	background-color: #615140;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h1
+{
+ 	font-family: 'Brush Script MT';
+	font-size: 70px;
+}
+
+h2
+{
+	font-family: Tahoma;
+	font-style: italic;
+	font-weight: normal;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+#bullets
+{
+	list-style-image: url('tomato.png');
+	
+}
