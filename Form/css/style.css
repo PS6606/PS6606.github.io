@@ -1,0 +1,19 @@
+div 
+{
+    margin: 10px;
+}
+
+label 
+{
+    margin-right: 15px;
+    width: 150px;
+    display: inline-block;
+}
+p
+{
+    margin-bottom: 0px;
+}
+.x
+{
+    margin-left: 0px;
+}
