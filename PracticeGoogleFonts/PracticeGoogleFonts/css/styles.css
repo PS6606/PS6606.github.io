@@ -1,0 +1,21 @@
+/* Practice CustomFonts Style Sheet */
+
+.websafe{
+    font-family: 'Merriweather' Arial, Courier, "Courier New";
+}
+.google {
+    font-family: 'Merriweather' 'Dosis', Georgia, serif;
+}
+@font-face 
+{
+    font-family: 'Merriweather';
+    src: url('../fonts/merriweather-black-webfont.woff') format('woff'),
+         url('../fonts/merriweather-black-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body
+{
+    font-family: 'Merriweather', 'Times New Roman', serif;
+}
+
