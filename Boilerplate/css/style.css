@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Anton';
+    src: url('anton-regular-webfont.woff') format('woff'),
+         url('anton-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1
+{
+    font-family: 'Anton', sans-serif;;
+    background-color: #A8D6EB;
+}
+h2
+{
+    font-size: 1.5em;
+}
+#value
+{
+    background-color: #AEF0CC;
+}
+#example
+{
+    background-color: #E3ADB9;
+}
