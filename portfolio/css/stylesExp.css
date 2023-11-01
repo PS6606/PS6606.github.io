@@ -10,7 +10,7 @@
         background: #FFFFFF;
         border: 1px solid #000000;
         display: flex;
-        justify-content: flex-end;
+        align-items: center;
         flex-wrap: wrap;
         margin: 10px;
         text-align: center;
