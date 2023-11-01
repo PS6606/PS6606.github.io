@@ -9,7 +9,7 @@
     .projectBox {
         background: #FFFFFF;
         border: 1px solid #000000;
-        float: left;
+        flex: 1;
         margin: 10px;
         text-align: center;
         width: 31%;
