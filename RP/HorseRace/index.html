@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Horse Race Win Probability Game</title>
+  <style>
+    #race-track {
+      margin: auto;
+      width: 600px;
+      height: 400px;
+      border: 1px solid black;
+    }
+
+    .horse {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      background-color: #ffcc00;
+      border: 1px solid black;
+    }
+
+    .winner {
+      background-color: #00cc00;
+    }
+
+    .button {
+      margin-top: 10px;
+    }
+
+    .message {
+      font-weight: bold;
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h2>Horse Race Win Probability Game</h2>
+  <div id="race-track">
+    <div id="horse1" class="horse"></div>
+    <div id="horse2" class="horse"></div>
+    <div id="horse3" class="horse"></div>
+    <div id="horse4" class="horse"></div>
+  </div>
+  <div class="button">
+    <button onclick="startRace()">Start Race</button>
+    <button onclick="resetRace()">Reset Race</button>
+  </div>
+  <p class="message" id="message"></p>
+
+  <script>
+    function startRace() {
+      let horses = document.getElementsByClassName("horse");
+      let winnerIndex = Math.floor(Math.random() * horses.length);
+
+      for (let i = 0; i < horses.length; i++) {
+        horses[i].classList.remove("winner");
+      }
+
+      horses[winnerIndex].classList.add("winner");
+
+      let message = document.getElementById("message");
+      message.innerHTML = "The winner is horse " + (winnerIndex + 1) + "!";
+    }
+
+    function resetRace() {
+      let horses = document.getElementsByClassName("horse");
+
+      for (let i = 0; i < horses.length; i++) {
+        horses[i].classList.remove("winner");
+      }
+
+      let message = document.getElementById("message");
+      message.innerHTML = "";
+    }
+  </script>
+</body>
+</html>
