@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chess Calculator</title>
+  <style>
+    .container {
+      text-align: center;
+      margin-top: 100px;
+    }
+    label {
+      font-size: 20px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <label for="current-rating">Current Rating:</label>
+    <input type="number" id="current-rating" min="0" max="3000">
+    <br>
+    <label for="desired-rating">Desired Rating:</label>
+    <input type="number" id="desired-rating" min="0" max="3000">
+    <br>
+    <button onclick="calculate()">Calculate</button>
+    <br>
+    <h2 id="result"></h2>
+  </div>
+
+  <script>
+    function calculate() {
+      var currentRating = parseInt(document.getElementById('current-rating').value);
+      var desiredRating = parseInt(document.getElementById('desired-rating').value);
+      
+      if (isNaN(currentRating) || isNaN(desiredRating)) {
+        document.getElementById('result').innerHTML = "Please enter valid ratings.";
+        return;
+      }
+      
+      if (currentRating >= desiredRating) {
+        document.getElementById('result').innerHTML = "Your desired rating should be higher than your current rating.";
+        return;
+      }
+      
+      var gamesNeeded = Math.ceil((desiredRating - currentRating) / 40);
+      document.getElementById('result').innerHTML = "You need to win " + gamesNeeded + " games to reach your desired rating.";
+    }
+  </script>
+</body>
+</html>
