@@ -1,12 +1,12 @@
 body
 {
-    background-color: #FF0000;
+    background: #FF0000;
     color: #FFFFFF;
 }
-@media screen and (min-width: 600px)
+@media (min-width: 600px)
 {
     body
     {
-        background-color: #0000FF;
+        background: #0000FF;
     }
 }
