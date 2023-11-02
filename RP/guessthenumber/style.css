@@ -1,1 +1,30 @@
+body {
+  text-align: center;
+}
 
+h1 {
+  color: navy;
+}
+
+p {
+  font-size: 16px;
+}
+
+input {
+  width: 100px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: navy;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border: none;
+}
+
+#message {
+  color: green;
+  font-weight: bold;
+}
