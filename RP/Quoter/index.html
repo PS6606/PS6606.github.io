@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quotation Marks</title>
+  <script>
+    function putWordsInQuotes() {
+      var inputText = document.getElementById("wordsInput").value; // Get input value
+      var wordsArray = inputText.split(" "); // Split input into an array of words
+      
+      var outputText = ""; // Initialize output text
+      
+      for (var i = 0; i < wordsArray.length; i++) {
+        outputText += "\"" + wordsArray[i] + "\" "; // Add quotes to each word in the array
+      }
+      
+      document.getElementById("output").textContent = outputText; // Display output
+    }
+  </script>
+</head>
+<body>
+  <h2>Put Words in Quotation Marks</h2>
+  
+  <label for="wordsInput">Enter multiple words:</label>
+  <input type="text" id="wordsInput">
+  <br><br>
+  
+  <button onclick="putWordsInQuotes()">Put in Quotes</button>
+  
+  <p id="output"></p>
+</body>
+</html>
