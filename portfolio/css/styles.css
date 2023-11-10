@@ -1,6 +1,7 @@
 /* css used to target all portfolio web pages */
 /* applies to all web pages to promote consistency       */
     body {
+	    background: linear-gradient(to top right, #FFFF00, #FF6600, #006699, #3333FF)
         background: rgba(210, 223, 250, 0.404);
         color: #333333;
         font-size: 1.25rem;
