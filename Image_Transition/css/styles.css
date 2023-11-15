@@ -2,7 +2,7 @@ img
 { 
     padding: 20px; 
     width: 480px; 
-    transition: width 60s ease 0.1s 
+    transition: width 300s ease 0.01s 
 } 
 
 img:hover 
