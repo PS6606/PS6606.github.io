@@ -17,13 +17,7 @@
 h1
 {
     font-family: 'Anton', sans-serif;;
-    background-color: #A8D6EB;
     font-size: var(--fontSizeHeading);
-}
-
-h2
-{
-    font-size: 1.5em;
 }
 
 body
