@@ -6,20 +6,27 @@
     font-style: normal;
 
 }
+
+:root 
+{
+    --fontSize: 1.25em;
+    --fontSizeHeading: calc(var(
+     --fontSize) * 3 );
+}
+
 h1
 {
     font-family: 'Anton', sans-serif;;
     background-color: #A8D6EB;
+    font-size: var(--fontSizeHeading);
 }
+
 h2
 {
     font-size: 1.5em;
 }
-#value
+
+body
 {
-    background-color: #AEF0CC;
-}
-#example
-{
-    background-color: #E3ADB9;
+    font-size: var(--fontSize);
 }
