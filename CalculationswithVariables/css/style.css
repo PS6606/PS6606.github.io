@@ -1,12 +1,3 @@
-@font-face {
-    font-family: 'Anton';
-    src: url('anton-regular-webfont.woff') format('woff'),
-         url('anton-regular-webfont.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 :root 
 {
     --fontSize: 1.25em;
@@ -16,7 +7,6 @@
 
 h1
 {
-    font-family: 'Anton', sans-serif;;
     font-size: var(--fontSizeHeading);
 }
 
