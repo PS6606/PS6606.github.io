@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@font-face {
+	font-family: "Quicksand-Bold";
+	src: url("../fonts/Quicksand-Bold.otf") format("opentype");
+}
+
+$color1 :#B8D1EB;
+$color2 :#7a6b48;
+$color3 :#000;
+$color4 :#8B0000;
+$color5 :#C5A98B;
+
+$font1: "Times New Roman", serif;
+$font2: 'Righteous', 'cursive';
+$font3: 'Quicksand-Bold', Arial, sans-serif;
+
+$fontSize1: 60px;
+$fontSize2: 0.75em;
+
+$width1: 70%;
+$width2: 200px;
+
+body { 
+	background-color: $color1;
+	font-family: $font1;
+}
+
+#outerwrapper { 
+    width: $width1;
+	margin: 0 auto;
+}
+
+/*applied cityFarmer.jpg */
+.floatleft {	
+	float: left;
+	margin-right: 3%;
+}
+
+h1 {
+	font-family: $font2;
+	font-size: $fontSize1;
+}
+
+h2 {
+	font-family: $font3;
+	font-weight:normal;
+	font-style:italic;
+}
+
+main {	
+	background-color: $color5;
+	padding: 10px;
+}
+
+nav {
+
+    ul {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    width: $width2;
+	    background-color: $color5;
+
+    li {
+
+    a {
+        display: block;
+	    color: $color3;
+	    padding: 8px 16px;
+	    text-decoration: none;
+
+    .active {
+        background-color: $color2;
+	    color: $color3;
+    }
+
+    :hover:not(.active) {
+        background-color: $color2;
+	    color: $color4 ;
+    }
+    }
+    }
+    }
+}
+/*nav ul li a {
+	display: block;
+	color: $color3;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+nav > ul > li > a.active {
+	background-color: $color2;
+	color: $color3;
+}  
+
+   Change the link color on hover 
+nav > ul > li > a:hover:not(.active) {
+	background-color: $color2;
+	color: $color4 ;
+}
+
+/* applied hothouse.jpg */
+.floatright {
+	float: right;
+	margin-left: 3%;
+}
+	
+main {
+    ul {
+        list-style-image: url(../images/tomatoeBullet.png);
+    }
+    footer {
+        clear: both;
+    }
+} 
+/*
+main, footer{ 
+	clear: both;
+}*/
+footer {
+	font-size: $fontSize2;
+	text-align: center;
+	background-color: $color2;
+	padding: 10px 0px;
+}
