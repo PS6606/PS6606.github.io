@@ -25,6 +25,67 @@
                 Contact Me
             </h2>
             I will graduate <u>spring of 2025</u>. Contact me at <a href="mailto: patrick.j.stewart06@gmail.com">patrick.j.stewart06@gmail.com</a> to discuss opportunities at your company.
+            <form action="mailto:patrickstewart1@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+            <!-- Group Fields Together, page 104 -->
+            <fieldset>
+            <legend>How do I contact you?</legend>
+                <p>Company:</p>
+                <!-- Company Select Box, page 97 -->
+                <input class="com" type="text" name="Company Name" value=""/>
+                <div>
+    
+                </div>
+                <p>Person to contact:</p>
+                <!-- Person to Contact Select Box, page 97 -->
+                <input class="name" type="text" name="Contact Name" value=""/>
+                <div>
+    
+                </div>
+                
+                <!-- Email, textbook file rental.html -->	
+                <!--Video 9.9 Building and Testing a Valid Form-->	
+                <div class="x">
+                    Email: <span style="display:inline-block; width: 122px;"></span>
+                    <input type="email" name="Contact Email" onfocus="this.value=''" value="Email"/>
+                </div>
+                <!-- Phone, textbook file rental.html-->
+                <!--Video 9.9 Building and Testing a Valid Form-->
+                <div class="x">
+                    Phone Number: <span style="display:inline-block; width: 63px;"></span>
+                    <input type="tel" name="Contact Phone Number" onfocus="this.value=''" value="000-000-0000"/>
+                </div>
+            </fieldset>
+    
+            <!-- Group Fields Together, page 104 -->
+            <fieldset>
+                <legend>What opportunities are available at your company?</legend>
+                Type of Position: &emsp;&emsp;&emsp;&nbsp;
+                <select name="Position">
+                    <option></option>
+                    <option value="Employment">Internship</option>
+                    <option value="Employment">Part-time</option>
+                    <option value="Employment">Full-time</option>
+                    <option value="Employment">Contract</option>
+                    <option value="Employment">Temporary</option>
+                    <option value="Employment">On call</option>
+                </select>
+                <!-- Select Box, page 98 -->
+    
+                <!-- Radio Buttons, page 99 -->
+                <p>How did you find me?</p>
+                <br>
+                <input type="radio" name="Referral" value="LinkedIn"/>&nbsp;LinkedIn &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+                <input type="radio" name="Referral" value="Job Fair"/>&nbsp;Job Fair &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+                <input type="radio" name="Referral" value="Job Fair"/>&nbsp;CWI Corporate Partner &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+                <input type="radio" name="Referral" value="CWI Corporate Partner"/>&nbsp;Other
+    
+                <div>
+                    <textarea name="Comments" id="83982732" onfocus="this.value=''" cols="100" rows="10">How should I prepare for the interview?</textarea>
+                    <!-- Text Area, textbook file code-9-1.html -->	
+                </div>
+            </fieldset>
+            <input type="submit" id="submit" value="Submit" class="btn">
+         </form>
         </main>
         <footer>
             <hr>
