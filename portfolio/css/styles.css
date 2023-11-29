@@ -20,4 +20,31 @@
 {
 	background: linear-gradient(to top right, #B3DEE2, #9E0059, #5EF38C, #FF4D7C);
 }
+div 
+{
+    margin: 10px;
+}
+
+label 
+{
+    margin-right: 15px;
+    width: 150px;
+    display: inline-block;
+}
+p
+{
+    margin-bottom: 0px;
+}
+.x
+{
+    margin-left: 0px;
+}
+.com
+{
+    width: 500px;
+}
+.name
+{
+    width: 250px;
+}
 
