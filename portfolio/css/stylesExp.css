@@ -15,6 +15,7 @@
         margin: 10px;
         text-align: center;
         width: 31%;
+        flex-direction: column;
     }
 
     .projectBox h4.semester {
