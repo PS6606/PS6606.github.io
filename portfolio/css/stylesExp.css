@@ -3,18 +3,17 @@
 
     .projectExamples {
         display: flex;
-        flex-direction: row;
     }
 
     .projectBox {
         display: flex;
-        justify-content: space-evenly;
         flex-wrap: wrap;
         border: 1px solid #000000;
         text-align: center;
-        width: 31%;
         flex-direction: column;
+        flex-grow: 1;
     }
+    div
 
     .projectBox h4.semester {
         background:#00008833; 
