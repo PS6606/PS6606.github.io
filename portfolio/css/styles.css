@@ -78,7 +78,7 @@ nav ul li a
 {
     text-decoration: none;
     color: #000000;
-    background: linear-gradient(to left, #FFFF00, #FF6600, #006699, #3333FF, #2FFFFF, #FDFFFF, #B16699, #000000, #0AD3FF, #7CB518, #EF8354, #6369D1, #B3DEE2, #9E0059, #5EF38C, #FF4D7C);
+    background: linear-gradient(to right, #FFFF00, #FF6600, #006699, #3333FF, #2FFFFF, #FDFFFF, #B16699, #000000, #0AD3FF, #7CB518, #EF8354, #6369D1, #B3DEE2, #9E0059, #5EF38C, #FF4D7C);
     background-clip: text;
     -webkit-background-clip: text;
 }
