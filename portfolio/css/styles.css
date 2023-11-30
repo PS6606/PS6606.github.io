@@ -8,33 +8,21 @@
 .grad
 {
 	background: linear-gradient(to top right, #FFFF00, #FF6600, #006699, #3333FF);
-    -webkit-animation: Animation 5s ease infinite;
-    -moz-animation: Animation 5s ease infinite;
-    animation: Animation 5s ease infinite;
 }
 
 .grad1
 {
 	background: linear-gradient(to top right, #2FFFFF, #FDFFFF, #B16699, #000000);
-    -webkit-animation: Animation 5s ease infinite;
-    -moz-animation: Animation 5s ease infinite;
-    animation: Animation 5s ease infinite;
 }
 
 .grad2
 {
 	background: linear-gradient(to top right, #0AD3FF, #7CB518, #EF8354, #6369D1);
-    -webkit-animation: Animation 5s ease infinite;
-    -moz-animation: Animation 5s ease infinite;
-    animation: Animation 5s ease infinite;
 }
 
 .grad3
 {
 	background: linear-gradient(to top right, #B3DEE2, #9E0059, #5EF38C, #FF4D7C);
-    -webkit-animation: Animation 5s ease infinite;
-    -moz-animation: Animation 5s ease infinite;
-    animation: Animation 5s ease infinite;
 }
 
 div 
@@ -92,20 +80,4 @@ nav ul li a:hover
 {
     color: transparent;
     transition: 500ms ease;
-}
-
-@-webkit-keyframes Animation {
-    0%{background-position:10% 0%}
-    50%{background-position:91% 100%}
-    100%{background-position:10% 0%}
-}
-@-moz-keyframes Animation {
-    0%{background-position:10% 0%}
-    50%{background-position:91% 100%}
-    100%{background-position:10% 0%}
-}
-@keyframes Animation { 
-    0%{background-position:10% 0%}
-    50%{background-position:91% 100%}
-    100%{background-position:10% 0%}
 }
