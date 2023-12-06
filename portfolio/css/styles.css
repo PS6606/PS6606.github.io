@@ -87,3 +87,17 @@ nav ul li a:hover
     color: transparent;
     transition: 500ms ease;
 }
+h1{
+    background: linear-gradient(to right, #800080, #D3D3D3, #c9a0dc, #000000, #9966cc);
+    background-clip: text;
+    width: 100000;
+    animation: slide 60s linear infinite;
+}
+@keyframes slide{
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-1692px, 0, 0);
+    }
+  }
