@@ -109,6 +109,12 @@ nav ul li a:hover
     color: transparent;
     transition: 500ms ease;
 }
+
+form
+{
+	font-weight: bold;
+}
+
 @keyframes slide{
     0% {
       transform: translate3d(0, 0, 0);
